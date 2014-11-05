@@ -1,0 +1,88 @@
+/***********
+GLOBAL STYLE
+***********/
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.background {
+	height: 100%;
+	width: 100%;
+	background-image: url("autumn.jpg");
+	background-repeat: no-repeat;
+	background-position: 60%;
+	background-size: cover;
+}
+
+ul {
+	list-style-type: none;
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.menu {font-family: 'Merriweather', cursive;}
+a {text-decoration: none;}
+
+
+/*********
+DEFAULT
+*********/
+.title {
+	display:none;
+}
+
+.choose a {
+	font-size: 2em;
+	color: black;
+}
+
+.firstLevel {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.choose {
+	/*border: 2px solid red;*/
+	background:#7f7f7f;
+  	background:rgba(255,255,255,0.6);
+  	text-align: center;
+}
+
+.secondLevel {
+	/*border: 2px dotted red;*/
+	font-size: .7rem;
+	display: none;
+}
+
+.secondLevel li:hover a {
+	background: rgba(255,255,255,0.4);
+	width: auto;
+	display: block;
+}
+
+.choose a:hover + .secondLevel, .secondLevel:hover {
+	display: block;
+}
+
+
+/****
+MEDIUM BREAKPOINT
+****/
+@media (min-width: 30em) {
+
+}
+
+/****
+LARGEST BREAKPOINT
+****/
+
+@media all and (min-width: 40em) {
+
+
+}
